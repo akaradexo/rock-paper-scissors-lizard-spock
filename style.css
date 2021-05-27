@@ -68,6 +68,8 @@ header .title {
   font-weight: 800;
   color: #202124;
   padding: 1rem;
+  text-transform: uppercase;
+
  
 }
 .scores p {
