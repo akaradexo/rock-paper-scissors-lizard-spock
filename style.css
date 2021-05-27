@@ -27,7 +27,7 @@ body {
 background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
 }
 .container {
-  width: 45%;
+  width: 70%;
   min-width: 40rem;
   background-color:#202124;
   padding: 4rem 3rem;
@@ -51,12 +51,21 @@ header .title {
   font-size: 1.2rem;
   line-height: 1.5rem;
   text-transform: uppercase;
+  color: #202124;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  padding: 1rem;
 }
 
 .scores p {
   font-size: 1.1rem;
   line-height: 1.5rem;
   font-weight: 500;
+  color: #202124;
+  background-color: #d9d9d9;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  padding: 1rem;
 }
 
 .weapons {
@@ -76,6 +85,7 @@ header .title {
   border-radius: 50%;
   outline: none;
   cursor: pointer;
+  box-shadow: -1px -1px 45px -10px #d9d9d9;
 }
 
 .details {
