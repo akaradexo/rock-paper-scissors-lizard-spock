@@ -15,7 +15,35 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    
+    <div class="container">
+      <header>
+        <div class="title">
+          <p>Rock</p>
+          <p>Paper</p>
+          <p>Scissors</p>
+        </div>
+        <div class="scores">
+          <p>Computer: <span id="computer_score">0</span></p>
+          <p>User: <span id="user_score">0</span></p>
+        </div>
+      </header>
+      <div class="weapons">
+        <button onclick="checker('rock')">
+          <i class="far fa-hand-rock"></i>
+        </button>
+        <button onclick="checker('paper')">
+          <i class="far fa-hand-paper"></i>
+        </button>
+        <button onclick="checker('scissor')">
+          <i class="far fa-hand-scissors"></i>
+        </button>
+      </div>
+      <div class="details">
+        <p id="user_choice"></p>
+        <p id="comp_choice"></p>
+        <p id="result"></p>
+      </div>
+    </div>
 
     <script src="./script.js"></script>
   </body>
