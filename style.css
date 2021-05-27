@@ -56,17 +56,29 @@ header .title {
   border-radius: 20px;
   padding: 1rem;
 }
-
+.scores{
+  background-color: #d9d9d9;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  
+}
+.scores h2 {
+  font-size: 2rem;
+  line-height: 1.5rem;
+  font-weight: 800;
+  color: #202124;
+  padding: 1rem;
+ 
+}
 .scores p {
   font-size: 1.1rem;
   line-height: 1.5rem;
   font-weight: 500;
   color: #202124;
-  background-color: #d9d9d9;
-  margin-bottom: 1rem;
-  border-radius: 20px;
-  padding: 1rem;
+  padding: 0rem 1rem;
+ 
 }
+
 
 .weapons {
   width: 90%;
