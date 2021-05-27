@@ -1,3 +1,15 @@
+const openBtn = document.getElementById('open');
+const closeBtn = document.getElementById('close');
+const modal = document.getElementById('modal');
+openBtn.addEventListener('click',() => {
+    modal.style.display = 'flex';
+});
+
+closeBtn.addEventListener('click',() => {
+    modal.style.display = 'none';
+});
+
+
 let [computer_score,user_score]=[0,0];
 let result_ref = document.getElementById("result");
 let choices_object = {
