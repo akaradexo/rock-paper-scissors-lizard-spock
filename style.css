@@ -131,8 +131,8 @@ header .title {
   font-family: inherit;
   padding: 10px 25px;
   position: fixed;
-  bottom: 40px;
-  right: 40px;
+  bottom: 10px;
+  right: 10px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
